@@ -82,19 +82,19 @@ decided to implement the following modification to his behavior:
 > and, once you learn programming, it's a handy way to communicate with other
 > programmers.
 
-```ruby
-while on_the_train
-  if i_hear_a_sick_sound
-    my_mask_status = true
+```js
+while onTheTrain
+  if iHearASickSound
+    myMaskStatus = true
   end
 end
 ```
 
-The method name `i_hear_a_sick_sound`'s pseudocode looks like
+The method name `iHearASickSound`'s pseudocode looks like
 this:
 
-```ruby
-def i_hear_a_sick_sound(passengers)
+```js
+def iHearASickSound(passengers)
   # Given a collection of passengers' sounds ["coughing", "yawning", "sneezing", "singing Jamaican traditional folksong"]
   # If any of them are sick sounds: cough, yawn
   # return `true`; else, return `false`
@@ -116,9 +116,9 @@ function iHearASickSound(passengersSounds) {
   return false;
 }
 
-console.log(iHearASickSound(["coughing", "foo", "bar", "bin", "bat"])) //=> true
-console.log(iHearASickSound(["sneezing", "foo", "bar", "bin", "bat"])) //=> true
-console.log(iHearASickSound([            "foo", "bar", "bin", "bat"])) //=> false
+iHearASickSound(["coughing", "foo", "bar", "bin", "bat"]) //=> true
+iHearASickSound(["sneezing", "foo", "bar", "bin", "bat"]) //=> true
+iHearASickSound([            "foo", "bar", "bin", "bat"]) //=> false
 ```
 
 This is but one tiny example. If you don't live in a big city with public
