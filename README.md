@@ -51,7 +51,7 @@ to answer the type of question which involves "polling each member."
 
 > **USAGE NOTE** In Ruby, all the methods that behave like this are called
 > "Enumerable." There's no official collective term for methods that do this
-> "polling each member" operation. In the rest of this module we'll call them
+> "polling each member" operation. In the rest of this module, we'll call them
 > "Collection-Processing Methods." This isn't a hard-and-fast term that
 > programmers use in daily practice, but all JavaScript programmers know that
 > there's something similar to the methods we're about to introduce, so nobody
@@ -127,7 +127,7 @@ arrived first. Perhaps you're a bit lax on your laundry and you "sniff test"
 all the clothes on the floor _until_ you find the one that's least-offensive.
 
 We use Collection-Processing Methods all the time in real life! They're
-everywhere in life so they're very useful to have in code as well.
+everywhere in life, so they're very useful to have in code as well.
 
 ## Consult JavaScript's Collection-Processing Method Documentation
 
