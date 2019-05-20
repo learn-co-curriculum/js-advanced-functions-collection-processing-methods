@@ -2,8 +2,8 @@
 
 ## Learning Goals
 
-* Pseudocode a Real-World Use of Collection-Processing Methods
-* Consult JavaScript's Enumerable Documentation
+* Pseudocode a real-world use of collection-processing methods
+* Consult JavaScript's collection-processing methods' documentation
 
 ## Introduction
 
