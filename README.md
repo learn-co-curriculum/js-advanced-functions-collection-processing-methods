@@ -7,12 +7,12 @@
 
 ## Introduction
 
-As programmers, we wonder about the world, come up with questions and then
-ask a computer to help us manipulate data to find answers. Many of those
-questions can be resolved by "polling" every member in a collection. We'd
-typically "poll" each number in the collection and feed that value to a
-calculation (French Word For _x_) _or_ aggregate that value into a running
-value (like a total).
+As programmers, we wonder about the world, come up with questions and then ask
+a computer to help us manipulate data to find answers. Many of those questions
+can be resolved by "polling" every member in a collection. We'd typically
+"poll" each number in the collection and feed that value to a calculation (Look
+up the French word For _x_) _or_ aggregate that value into a running value
+(like a total).
 
 Here are some real-world questions:
 
@@ -36,7 +36,7 @@ When we say "work" we mean the evaluation of some expression that uses the
 a function definition &mdash; be it a function declaration, a function
 expression, or a function returned by invoking another function.
 
-"Collection-Processing Method" is that we call a method provided by JavaScript
+"Collection-Processing Method" is what we call a method provided by JavaScript
 that:
 
 1. "visits" each element or pair in a collection
@@ -94,7 +94,7 @@ The method name `iHearASickSound`'s pseudocode looks like
 this:
 
 ```js
-def iHearASickSound(passengers)
+def iHearASickSound(passengerNoises)
   # Given a collection of passengers' sounds ["coughing", "yawning", "sneezing", "singing Jamaican traditional folksong"]
   # If any of them are sick sounds: cough, yawn
   # return `true`; else, return `false`
