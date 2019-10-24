@@ -106,7 +106,6 @@ method as:
 
 ```js
 function iHearASickSound(passengersSounds) {
-  let heardSickSound = false
   for (let i = 0; i < passengersSounds.length; i++) {
     if (passengersSounds[i] === "coughing" ||
         passengersSounds[i] === "sneezing" ) {
