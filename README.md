@@ -20,7 +20,7 @@ Here are some real-world questions:
 * "What numbers in this data set are larger than 200? Larger than 2,000? Larger
   than an argument a user might provide?"
 * "Which painting is the most valuable?"
-* "Which painting is the least value?"
+* "Which painting is the least valuable?"
 * "Do any of these children have a wet cough?"
 
 These real-world questions involve:
@@ -31,7 +31,7 @@ These real-world questions involve:
 4. Returning a new collection **or** a new value based on the "work" that
    touched each element
 
-When we say "work" we mean the evaluation of some expression that uses the
+When we say "work," we mean the evaluation of some expression that uses the
 "current element." In JavaScript, you guessed it, that "work" is stored in
 a function definition &mdash; be it a function declaration, a function
 expression, or a function returned by invoking another function.
@@ -41,7 +41,7 @@ that:
 
 1. "visits" each element or pair in a collection
 2. tests those elements or pairs with "work"
-3. and then returns a new collection **or** a value
+3. returns a new collection **or** a value
 
 Methods that behave in this way we'll say have the "Character of Collection
 Processing."
@@ -75,10 +75,10 @@ _wearing a surgical mask_. But he didn't want to wear one all the time so he
 decided to implement the following modification to his behavior:
 
 > **PSEUDOCODE**: Below we're going to use "pseudocode." It's something that
-> looks a bit like code, but we're not expecting that it would run, it's just a
+> looks a bit like code, but we're not expecting that it would run. It's just a
 > convenient way to express a problem's solution in a way like code, but far
 > less demanding. It's common to find programmers "sketching" a problem or a
-> phenomenon in pseudocode because it's usually shorter to write than English
+> phenomenon in pseudocode because it's usually shorter to write than English,
 > and, once you learn programming, it's a handy way to communicate with other
 > programmers.
 
